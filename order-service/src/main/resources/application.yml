@@ -1,0 +1,12 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /order-service
+    
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: springshop
+      
