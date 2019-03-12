@@ -1,0 +1,12 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /user-service
+    
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: springshop
+      
